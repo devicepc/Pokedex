@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16"  href="favicons\favicon-16x16.png">
+    <link rel="stylesheet" href="./css/index.css">
+
+
+    <title>Pokedex Responsive</title>
+</head>
+<body>
+
+    <main>
+     <h2>Busca tu  pokemon</h2>
+        <img src="./img/pokebola.png" alt="pokemon"  class="pokemon_image">
+        <img src="https://github.com/manualdodev/pokedex/blob/main/images/pokedex.png?raw=true" alt="pokedex" class="pokedex">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span> <br>
+             
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Nombre o Numero" required id="PokeName">
+            <br>
+        </form>
+        <div class="pokemon_data2" id="pokemon_Moredata">
+            
+            <label for="">Type </label><input type="text" id="moredata4" class="inpotpoke">
+            <label for="">Ability 1</label><input type="text" id="moredata5" class="inpotpoke">
+            <label for="">Ability 2</label><input type="text" id="moredata6" class="inpotpoke">
+            <label for="">Attack 1</label><input type="text" id="moredata" class="inpotpoke">
+            <label for="">Attack 2</label><input type="text" id="moredata2" class="inpotpoke">
+            <label for="">Attack 3</label><input type="text" id="moredata3" class="inpotpoke">
+        </div>
+        <div class="buttons">
+           <button class="boton anterior"> Anterior</button>
+           <button class="boton proximo" id="proximo"> Proximo</button>
+        </div>
+        
+        
+                
+    </main>
+    
+    <script defer src="./js/index.js"></script>
+
+</body>
+</html>

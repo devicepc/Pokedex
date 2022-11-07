@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ 
+ body{
+    text-align: center;
+   
+    min-height: 100vh;
+ }
+ 
+ main{
+    display: inline-block;
+    margin-top: 5%;
+    position: relative;
+ 
+ }
+ .Pokeimg{
+   width: 150px;
+   height: 150px;
+}
+ 
+ .pokedex{
+    width: 100%;
+    padding: 15px;
+    max-width: 700px;
+    height: 1200px;
+ }
+ 
+ .pokemon_image{
+    position: absolute;
+    bottom: 51%;
+    left: 35.0%;
+    height: 18%;
+    transform: translate(3%, 1%);
+ }
+ 
+ .pokemon_data{
+    position: absolute;
+    text-decoration: underline;
+    color: rgba(35, 37, 36, 0.856);
+    top: 54%;
+    right: 27%;
+    font-size: 130%;
+    
+ }
+ #pokemon_Moredata{
+    position: absolute;
+    color: rgba(35, 37, 36, 0.856);
+    top: 64%;
+    right: 15%;
+    font-size: 100%;
+    width: 200px;
+    
+ }
+  #pokemon_Moredata label{
+    font-weight: bolder;
+    color: white;
+ } 
+ 
+ .pokemon_name{
+    color: black;
+    text-transform: capitalize;
+ }
+ 
+ .form{
+    position: absolute;
+    color: black;
+    width: 30%;
+    top: 65%;
+    left: 13.3%;
+    
+ }
+ .input_search{
+    width: 100%;
+    padding: 5%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 6px;
+    box-shadow: -2px 2px 0 rgb(122, 120, 120);
+    background-color: rgb(168, 167, 167);
+    color: antiquewhite;
+        
+ }
+ 
+ .buttons{
+    position: absolute;
+    right: 63%;
+    bottom: 9.3%;
+    display: flex;
+    gap: 10px;
+ }
+ 
+ .boton{
+    width: 50%;
+    padding: 0.9%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 6px;
+    color: rgb(219, 210, 210);
+    background-color: rgb(15, 14, 14);
+    box-shadow: -2px 2px 0 rgb(122, 120, 120);
+ }
+ .boton:active{
+    background-color: red;
+    box-shadow: inset -2px 2px 0 rgb(122, 120, 120);
+    font-size: 0.8rem;
+ }
+ 
+ .info{
+    position: absolute;
+    background-color: rgb(19, 248, 19);
+    width: 35%;
+    height: 48.9%;
+    right: 7%;
+    top: 36%;
+    text-align: center;
+    font-family: Arial;
+    color: azure;
+    border: 1px solid white;
+    
+ }
+
+ .inpotpoke{
+   height: 30px;
+ }
+
+ @media (min-width: 668px) and (max-width: 768px) {
+
+   .buttons{
+      position: absolute;
+      right: 53%;
+      
+   }
+
+    .boton{
+    width: 120px;
+    padding: 0.9%;
+   
+ }
+ }
+ @media (max-width: 600px) {
+   
+   .pokedex{
+      height: 1500px;
+   }
+
+   .boton{
+      width: 120px;
+   }
+   .buttons{
+      position: absolute;
+      right: 23%;
+      bottom: 6.3%;
+      
+   }
+   #pokemon_Moredata{
+      position: absolute;
+      top: 70%;
+      right: 25%;
+      font-size: 100%;
+      width: 220px;
+      
+   }
+   #pokemon_Moredata label{
+      float: left;
+   }
+   #pokemon_Moredata input{
+      float: left;
+      width: 150px;
+      margin-bottom: 10px;
+   }
+   .input_search{
+      width: 150px;
+      margin-left: 50%;
+   }
+   .pokemon_image{
+      position: absolute;
+      bottom: 51%;
+      left: 18.0%;
+      height: 9%;
+      transform: translate(3%, 1%);
+   }
+   .pokemon_data{
+      position: absolute;
+      text-decoration: underline;
+      color: rgba(35, 37, 36, 0.856);
+      top: 57%;
+      right: 27%;
+      font-size: 130%;
+      
+   }
+   }
+
+ 
